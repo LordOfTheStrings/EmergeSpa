@@ -323,14 +323,14 @@ ul.btn li:last-child {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #bc1939;
+     color: #ff6f00;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #bc1939;
+     color: #ff6f00;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -391,7 +391,7 @@ ul.email li a {
 /** banner section **/
 
 .banner_main {
-     background: url(../images/banner.jpg);
+     background: url(../images/test.jpg);
      background-repeat: no-repeat;
      padding-top: 190px;
      background-size: 100% 100%;
@@ -404,27 +404,31 @@ ul.email li a {
 .text-bg {
      text-align: left;
      padding-left: 100px;
+     color: black;
 }
 
 .text-bg h1 {
+     text-shadow: 2px 2px black;
      text-transform: uppercase;
-     color: #fff;
-     font-size: 140px;
-     line-height: 140px;
-     padding-bottom: 35px;
+     color: #ff6f00;
+     font-size: 130px;
+     line-height: 130px;
+     padding-bottom: 25px;
      font-weight: bold;
 }
 
 .text-bg span {
+     text-shadow: 2px 2px whitesmoke;
      text-transform: uppercase;
-     color: #fff;
-     font-size: 52px;
+     color: black;
+     font-size: 48px;
      line-height: 68px;
      font-weight: 700;
      display: block;
 }
 
 .text-bg p {
+     text-shadow: 1px 1px whitesmoke;
      line-height: 28px;
      font-weight: 500;
      padding-bottom: 20px;
@@ -598,7 +602,7 @@ ul.email li a {
 }
 
 #hover_chang:hover.service_box {
-     background: #bc1939;
+     background: #ff6f00;
      transition: ease-in all 0.5s;
      border-radius: 20px;
      cursor: pointer;
